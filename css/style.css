@@ -1,0 +1,117 @@
+/* All Common Css File Start */
+*{
+    margin: 0 ;
+    padding: 0;
+} 
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+.continer{
+    width: 1170px;
+    margin: 0 auto;
+}
+/* All Common Css File end  */
+
+/* Header Part Start */
+
+#header_part{
+    background-color: rgba(0, 0, 0, 0.384);
+    height: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+ }
+.logo_with_menu{
+    display: flex;
+}
+.logo{
+    width: 270px;
+    margin-top: 30px;
+    
+}
+.menu{
+    width: 900px;
+    text-align: right;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    line-height: 70px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    padding-left: 45px;
+    font-weight: 700;
+    transition: .5s;
+}
+.menu ul li a:hover{
+    color: #28b8d8;
+}
+
+/* Header Part end */
+
+/* banner Part start */
+#banner_part{
+    background: url(../image/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.one{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 330px;
+    padding-bottom: 250px;
+}
+
+.banner_text{
+    text-align: center;
+}
+.banner_text h1{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+.banner_text h3{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif; 
+    font-weight: 300;
+    font-size: 40px;
+    padding: 20px 0;
+    letter-spacing: 5px;
+}
+.banner_text p{
+    color: #ffffff;
+    font-family: 'Roboto Slab', serif; 
+    font-weight: 300;
+    font-size: 14px;
+}
+/* banner Part end */
+
+
+
+
+
+/* banner text Part start */
+/* banner text Part end */
+
+/* banner Part start */
+/* banner Part start */
+
+
+
+
